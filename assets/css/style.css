@@ -3,15 +3,15 @@
     margin: 0;
     padding: 0;
   }
-  /* #135020; */
+  /* header */
   body {
-    color: #490C3A;
+    color: #D160DB;
     font-family: Helvetica, Arial, sans-serif;
   }
 
   header {
     padding: 20px 35px;
-    background-color: #135020;;
+    background-color: #547642;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -28,13 +28,13 @@
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #490C3A;
+    color: #D160DB;
     text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   
   header a {
     text-decoration: none;
-    color: #490C3A;
+    color: #D160DB;
   }
   
   header nav {
@@ -57,8 +57,38 @@
   }
   
   header nav ul li a:hover {
-    background:#490C3A;
-    color: #135020;;
+    background: #D160DB;
+    color: #547642 ;
     border-radius: 15px;
     text-shadow: none;
   }
+
+  /* hero */
+
+  .hero {
+      /* background-image: url("../images/tree.png"); */
+      background-color: #547642;
+      display: flex;
+  }
+
+  .hero h1 {
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    text-shadow: 0 0 10px rgba(107, 102, 102, 0.5);
+    margi
+
+  }
+
+  #profile-pic {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  /* #phrase {
+      float: left;
+      display: flex;
+      align-items: flex-end;
+  }  */
