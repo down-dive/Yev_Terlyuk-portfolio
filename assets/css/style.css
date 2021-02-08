@@ -143,7 +143,15 @@
       text-shadow: none;
   }
 
-  
+  .contact-me {
+      padding: 50px;
+  }
+
+  .contact-me ul {
+      color: black;
+      padding: 10px;
+
+  }
 
   
 
