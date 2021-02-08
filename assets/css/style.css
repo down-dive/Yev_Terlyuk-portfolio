@@ -3,6 +3,7 @@
     margin: 0;
     padding: 0;
     background-color: #547642;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
   }
   /* header */
   body {
@@ -76,11 +77,10 @@
     display: flex;
     justify-content: space-between;
     color: black;
-    text-shadow: 0 0 10px rgba(107, 102, 102, 0.5);
-    padding: 100px ;
-    font-family: cursive
-    
-
+    text-shadow: 0 0 10px rgba(250, 242, 242, 0.5);
+    padding: 170px ;
+    font-family: cursive;
+    flex-wrap: wrap;
   }
 
   #profile-pic {
@@ -88,6 +88,66 @@
     height: 400px;
     display: flex;
     justify-content: space-between;
+    box-shadow: 0 0 30px rgba(0, 0, 0, 0.5);
   }
+
+  /* about me section */
+  .about-me {
+      padding: 50px;
+  }
+
+  .about-me p {
+      color: black;
+      padding: 20px;
+      text-shadow: none;
+  }
+
+  /* my work section */
+  .my-work {
+      padding: 50px;
+  }
+
+  .horiseon {
+      padding: 20px
+  }
+
+  .horiseon p {
+      color: black;
+      text-shadow: none;
+  }
+  .horiseon span {
+
+  }
+
+
+  #horiseon {
+    height: 700px;
+    padding: 10px
+  }
+
+  #run-buddy {
+      height: 300px;
+      width: 600px;
+      padding: 10px;
+  }
+
+  #my-profile {
+    height: 300px;
+    width: 600px;
+    padding: 10px;
+  }
+
+  .other-work {
+      display: flex;
+      color: black;
+      text-shadow: none;
+  }
+
+  
+
+  
+
+
+
 
 
