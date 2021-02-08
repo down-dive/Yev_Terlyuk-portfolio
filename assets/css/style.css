@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    background-color: #547642;
   }
   /* header */
   body {
@@ -67,8 +68,8 @@
 
   .hero {
       /* background-image: url("../images/tree.png"); */
-      background-color: #547642;
       display: flex;
+      padding: 50px 50px 80px 50px;
   }
 
   .hero h1 {
@@ -76,6 +77,9 @@
     justify-content: space-between;
     color: black;
     text-shadow: 0 0 10px rgba(107, 102, 102, 0.5);
+    padding: 100px ;
+    font-family: cursive
+    
 
   }
 
